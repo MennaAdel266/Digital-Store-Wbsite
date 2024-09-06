@@ -1,0 +1,440 @@
+body {
+    font-family: Rubik;
+}
+
+.header{
+    background-color: rgba(255,255,255, 0.95);
+    display: inline-flex;
+}
+
+.logo{
+    padding-left: 120px;
+    padding-top: 10px;
+    width: 420px;
+}
+
+.search-container{
+    padding-left: 30px;
+    padding-top: 25px;
+}
+
+.search-input {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #F2F2F2;
+    width: 350px;
+    height: 36px;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    color:rgba(87, 87, 83, 0.5);
+}
+
+.search-input:focus{
+    outline-color: rgba(17, 118, 174, 0.6);
+}
+
+.search-icon {
+    background-color: #1176AE;
+    width: 40px;
+    height: 36px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 10px;
+    padding-right: 6px;
+    border: none;
+}
+
+.social-icons{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.icons-design{
+    border: 2px solid #F16126;
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
+    padding: 4px;
+    padding-right: 4px;
+}
+
+.icons-design:hover{
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
+    padding: 4px;
+    padding-right: 4px;
+    position: relative;
+    bottom: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0 , 0, 0.2);
+}
+
+.navbar{
+    background-color: #1176AE;
+    width: auto;
+    height: 42px;
+    padding-left: 340px;
+
+}
+
+.nav-item{
+    padding-left: 15px;
+}
+
+.nav-link{
+    color: #FFFFFF;
+}
+
+.nav-link:hover{
+    color: antiquewhite;
+}
+
+.main-slider{
+    background-color: #E8F5FD;
+    background-position: bottom;
+    background-image: url('static/images/logobg.png');
+    background-repeat: no-repeat; 
+    display: inline-flex;
+    height: 550px;
+    width: 100%;
+}
+
+.slider-container{
+    line-height: 10px;
+    height: 400px;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.arrow-left{
+    padding-left: 10px;
+    padding-top: 200px;
+}
+
+.arrows{
+    background-color:#F16126 ;
+    width: 35px;
+    height: 35px;
+    background-position: center;
+    padding-top: 3px;
+    padding-right: 2px;
+    border-radius: 35px;
+    position: relative;
+    bottom: 3.5px;
+    right: 3px;
+}
+
+.arrow-button{
+    border: 2px solid #F16126;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    position: relative;
+    left: 10px;
+}
+
+.arrow-button:focus{
+    outline-color: #F16126;
+}
+
+.arrow{
+    background-color:#F16126 ;
+    width: 35px;
+    height: 35px;
+    background-position: center;
+    padding-top: 3px;
+    padding-left: 2px;
+    border-radius: 35px;
+    position: relative;
+    bottom: 3.5px;
+    right: 3px;
+}
+
+.arrow-right{
+    padding-left: 900px;
+    padding-top: 200px;
+    
+}
+
+.shop-button{
+    background-color: #F16126; 
+    color: #fff;
+    width: 140px;
+    border: 0;
+    height: 40px;
+    padding: 12px 20px;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transform: width 0.5s;
+}
+
+.shop-button img{
+    width: 30px;
+    display: none;
+}
+
+.shop-button:hover img{
+    display: block;
+}
+
+.shop-button:hover {
+    background-color: #1176AE;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.categories{
+    background-color: rgba(232, 245, 253, 0.4);
+    height: 1655px;
+}
+
+.categories1{
+    background-color: rgba(232, 245, 253, 0.4);
+    height: 1180px;
+}
+
+.categories2{
+    background-color: rgba(232, 245, 253, 0.4);
+    height: 920px;
+}
+
+.card1{
+    background-color: #D1ECFA;
+    height: 416px;
+    width: 385px;
+    background-image: url('static/images/logobg-mobile.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.card2{
+    display: inline-flex;
+    background-color: #FDEDE7;
+    position: relative;
+    left: 25px;
+    height: 200px;
+    width:720px ;
+    background-image: url('static/images/logobg-accessories.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.card3{
+    display: inline-flex;
+    background-color: #EAE7E2;
+    position: relative;
+    left: 25px;
+    top: 15px;
+    height: 200px;
+    width:720px ;
+    background-image: url('static/images/logobg-accessories.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.product-card{
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0 , 0, 0.2);
+    border-radius: 8px;
+    width: 180px;
+    height: 355px;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+
+.product-card:hover{
+    border: 1px solid #1176AE ;
+    position: relative;
+    bottom: 40px;
+}
+
+
+.product-card1{
+    background-color: #FFFFFF;
+    width: 180px;
+    height: 355px;
+    position: relative;
+    left: 25px;
+    top: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0 , 0, 0.2);
+    border-radius: 8px;
+}
+
+.product-card2{
+    background-color: #FFFFFF;
+    width: 180px;
+    height: 355px;
+    position: relative;
+    left: 35px;
+    top: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0 , 0, 0.2);
+    border-radius: 8px;
+}
+
+.product-card3{
+    background-color: #FFFFFF;
+    width: 180px;
+    height: 355px;
+    position: relative;
+    left: 45px;
+    top: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0 , 0, 0.2);
+    border-radius: 8px;
+}
+
+.product-card4{
+    background-color: #FFFFFF;
+    width: 180px;
+    height: 355px;
+    position: relative;
+    left: 55px;
+    top: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0 , 0, 0.2);
+    border-radius: 8px;
+}
+
+.product-card5{
+    background-color: #FFFFFF;
+    width: 180px;
+    height: 355px;
+    position: relative;
+    left: 65px;
+    top: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0 , 0, 0.2);
+    border-radius: 8px;
+}
+
+.product-card6{
+    background-color: #FFFFFF;
+    width: 180px;
+    height: 355px;
+    position: relative;
+    left: 15px;
+    top: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0 , 0, 0.2);
+    border-radius: 8px;
+}
+
+.row-body{
+    display: inline-flex;
+}
+
+.products{
+    display: inline-flex;
+}
+
+.more-products-button{
+    font-size: small;
+    background-color: #F16126;
+    border-color: #F16126;
+    position: relative;
+    top: 40px;
+    left: 485px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    width: 180px;
+    height: 50px;
+}
+
+.more-products-button:hover{
+    background-color: #1176AE;
+    border-color: #1176AE;
+}
+
+.mobile-accessories-div{
+    position: relative;
+    top: 80px;
+    background-color: #FDEDE7;
+    width: 100%;
+    height: 240px;
+    background-image: url('static/images/logobg.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.electronics-div{
+    position: relative;
+    top: 80px;
+    background-color: #EAE7E2;
+    width: 100%;
+    height: 240px;
+    background-image: url('static/images/logobg.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+
+.features-container{
+    background-color: #1176AE;
+    width: auto;
+    height: 190px;
+}
+
+.graded{
+    position: relative;
+    left: 220px;
+    top: 65px;
+    background-color: #F16126;
+    width: 50px;
+    height: 80px;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cash{
+    position: relative;
+    left: 60px;
+    top: 65px;
+    background-color: #F16126;
+    width: 50px;
+    height: 80px;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.offer{
+    position: relative;
+    left: 60px;
+    top: 65px;
+    background-color: #F16126;
+    width: 50px;
+    height: 80px;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer-container{
+    background-color: #171717;
+    width: auto;
+}
+
+.footer-social-icons{
+    padding-left: 210px;
+    padding-top: 30px;
+}
+
+.social-design{
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
+    padding: 4px;
+    padding-right: 4px;
+}
+
+
+
+
+/* For tablets and smaller desktops (max-width: 992px) */
+@media (max-width: 600px){
+    
+
+}
